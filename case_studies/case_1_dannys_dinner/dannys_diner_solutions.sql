@@ -86,7 +86,8 @@ WITH first_order_cte AS
 )
 SELECT 
 	DISTINCT customer_id,
-	product_name
+	product_name,
+	price
 FROM 
 	first_order_cte
 WHERE
