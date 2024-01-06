@@ -32,7 +32,8 @@ CREATE TABLE dannys_diner.sales (
 INSERT INTO dannys_diner.sales (
 	customer_id, 
  	order_date,
- 	product_id
+ 	product_id,
+	price
  )
 VALUES
   ('A', '2021-01-01', '1'),
