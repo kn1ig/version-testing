@@ -33,7 +33,8 @@ INSERT INTO dannys_diner.sales (
 	customer_id, 
  	order_date,
  	product_id,
-	price
+	price,
+	date
  )
 VALUES
   ('A', '2021-01-01', '1', '2'),
