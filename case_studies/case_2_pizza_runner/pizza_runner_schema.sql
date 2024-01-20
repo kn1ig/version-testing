@@ -24,7 +24,8 @@ CREATE TABLE pizza_runner.runners (
 );
 INSERT INTO pizza_runner.runners (
 	runner_id, 
-	registration_date
+	registration_date,
+	price
 )
 VALUES
   (1, '2021-01-01'),
