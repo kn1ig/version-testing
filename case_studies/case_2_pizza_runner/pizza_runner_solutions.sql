@@ -23,7 +23,8 @@ We will create a temporary table where all forms of null will be transformed to 
 -- The orginal table structure
 
 SELECT * 
-FROM pizza_runner.customer_orders;
+FROM pizza_runner.customer_orders,
+WHERE price = 2;
 
 /*
 
