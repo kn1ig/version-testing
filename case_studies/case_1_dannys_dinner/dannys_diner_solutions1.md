@@ -31,6 +31,7 @@ GROUP BY
 ORDER BY 
 	total_spent DESC,
 	price ASC;
+	date DESC;
   ```
 </details>
 
