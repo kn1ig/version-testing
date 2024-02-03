@@ -42,7 +42,8 @@ CREATE TABLE pizza_runner.customer_orders (
   pizza_id INTEGER,
   exclusions VARCHAR(4),
   extras VARCHAR(4),
-  order_time TIMESTAMP
+  order_time TIMESTAMP,
+  date DATE
 );
 
 INSERT INTO pizza_runner.customer_orders
