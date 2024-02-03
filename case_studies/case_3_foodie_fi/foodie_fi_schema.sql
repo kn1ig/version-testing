@@ -48,7 +48,8 @@ VALUES
 CREATE TABLE foodie_fi.subscriptions (
   customer_id INTEGER,
   plan_id INTEGER,
-  start_date DATE
+  start_date DATE,
+  price INTEGER
 );
 
 INSERT INTO foodie_fi.subscriptions (
