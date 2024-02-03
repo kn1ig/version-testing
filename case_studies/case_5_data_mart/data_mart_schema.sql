@@ -26,7 +26,8 @@ CREATE TABLE data_mart.weekly_sales (
   segment VARCHAR(4),
   customer_type VARCHAR(8),
   transactions INTEGER,
-  sales INTEGER
+  sales INTEGER,
+  dates DATE
 );
 
 INSERT INTO data_mart.weekly_sales
