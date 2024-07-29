@@ -29,7 +29,7 @@ ON
 GROUP BY 
 	t1.customer_id
 ORDER BY 
-	total_spent DESC,
+	total_spent ASC,
 	price ASC;
 	date DESC;
   ```
