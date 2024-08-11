@@ -73,7 +73,7 @@ VALUES
 CREATE TABLE clique_bait.users (
   "user_id" INTEGER,
   "cookie_id" VARCHAR(6),
-  "start_date" TIMESTAMP
+  "start_date" DATE
 );
 
 INSERT INTO clique_bait.users
