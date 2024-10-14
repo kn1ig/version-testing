@@ -382,7 +382,8 @@ CREATE TEMP TABLE closing_balance AS (
 		customer_id,
 		txn_month
 	ORDER BY
-		customer_id
+		customer_id,
+		txn_month
 );
 
 -- This CTE will generate months (1 through 4) just in case customers do not have

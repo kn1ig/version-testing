@@ -31,7 +31,8 @@ VALUES
   (2, 'America'),
   (3, 'Africa'),
   (4, 'Asia'),
-  (5, 'Europe');
+  (5, 'Europe'),
+  (6, 'North pole');
 
 
 CREATE TABLE data_bank.customer_nodes (
