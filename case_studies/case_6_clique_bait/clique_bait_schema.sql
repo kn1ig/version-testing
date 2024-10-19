@@ -29,7 +29,8 @@ VALUES
   ('2', 'Add to Cart'),
   ('3', 'Purchase'),
   ('4', 'Ad Impression'),
-  ('5', 'Ad Click');
+  ('5', 'Ad Click'),
+	('6', 'Ad Click IN');
 
 CREATE TABLE clique_bait.campaign_identifier (
   "campaign_id" INTEGER,
