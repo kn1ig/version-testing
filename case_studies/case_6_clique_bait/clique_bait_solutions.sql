@@ -72,7 +72,7 @@ FROM
 	clique_bait.users
 GROUP BY
 	user_id
-LIMIT 1;
+LIMIT 2;
 
 /*
 
