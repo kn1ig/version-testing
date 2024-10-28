@@ -72,7 +72,7 @@ FROM
 	clique_bait.users
 GROUP BY
 	user_id
-LIMIT 3;
+LIMIT 1;
 
 /*
 
@@ -225,7 +225,7 @@ GROUP BY
 ORDER BY
 	page_views DESC
 LIMIT 
-	3;
+	4;
 	
 /*
 
