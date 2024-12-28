@@ -9,7 +9,7 @@ CREATE TABLE crashes (
 	crash_date timestamp,
 	posted_speed_limit varchar(2),
 	traffic_control_device varchar(50),
-	device_condition varchar(50),
+	device_condition varchar(60),
 	weather_condition varchar(25),
 	lighting_condition varchar(50),
 	first_crash_type varchar(100),
