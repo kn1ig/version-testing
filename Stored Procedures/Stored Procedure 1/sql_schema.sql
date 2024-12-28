@@ -35,7 +35,7 @@ CREATE TABLE crashes (
 	most_severe_injury varchar(50),
 	injuries_total varchar(2),
 	injuries_fatal varchar(2),
-	injuries_incapacitated varchar(2),
+	injuries_incapacitated varchar(4),
 	injuries_non_incapacitated varchar(2),
 	injuries_reported_not_evident varchar(2),
 	crash_hour varchar(2),
