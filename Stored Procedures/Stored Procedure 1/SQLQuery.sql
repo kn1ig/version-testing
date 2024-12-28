@@ -106,7 +106,7 @@ BEGIN
     WHERE ProductID = @ProductID;
 
     -- Checking if the stock quantity has dropped below the reorder level
-    IF @UnitsInStock - @Quantity < @ReorderLevel
+    AND @UnitsInStock - @Quantity < @ReorderLevel
     BEGIN
         PRINT 'The quantity in stock of this product has dropped below its reorder level.';
     END
